@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:08:04 +0800] "GET /mailsy-app-controller/validateApp HTTP/1.1" 400 1080 http-bio-9000-exec-1 52
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:08:04 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9000-exec-2 0
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:08:19 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=1 HTTP/1.1" 406 1067 http-bio-9000-exec-3 1951
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:08:43 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-1234567 HTTP/1.1" 406 1067 http-bio-9000-exec-7 4558
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:09:59 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-1234567 HTTP/1.1" 404 949 http-bio-9000-exec-1 46
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:10:00 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-1234567 HTTP/1.1" 404 949 http-bio-9000-exec-4 1
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:10:03 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-1234567 HTTP/1.1" 404 949 http-bio-9000-exec-5 1
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:11:28 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-1234567 HTTP/1.1" 404 949 http-bio-9000-exec-1 46
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:11:52 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-1234567 HTTP/1.1" 200 4 http-bio-9000-exec-1 1946
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:12:10 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-1234567 HTTP/1.1" 200 5 http-bio-9000-exec-2 1447
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:13:10 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-12345672 HTTP/1.1" 200 5 http-bio-9000-exec-1 1762
+0:0:0:0:0:0:0:1 - - [06/Sep/2015:21:13:16 +0800] "GET /mailsy-app-controller/validateApp?registeredKey=ABC-12345672 HTTP/1.1" 200 5 http-bio-9000-exec-2 2618
